@@ -8,7 +8,7 @@ function MainCard() {
       {data.map((item) => {
         const { id, name, hour, image } = item;
         return (
-          <div key={id} className="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div key={id} className="col-12 col-sm-12 col-md-6 col-lg-4 g-3">
             <div className="d-flex align-items-center">
               <div className="w-25">
                 <img className="w-100" src={image} alt="" />

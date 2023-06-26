@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App container">
     <Header />
-    <div className="Main">
+    <div className="Main shadow p-3 text-light">
       <Main />
     </div>
   </div>

@@ -3,5 +3,9 @@ body {
 }
 
 .Main{
-    margin-top: 14rem !important;
+    margin-top: 3rem;
+}
+
+.heading{
+    margin-top: 1rem;
 }
