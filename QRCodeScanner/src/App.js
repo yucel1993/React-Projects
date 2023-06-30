@@ -9,11 +9,11 @@ function App() {
         .getUserMedia({ video: { width: 1280, height: 720 } })
         .then((stream) => {
           video.current.srcObject = stream;
-          // video.current.play();
+          video.current.play();
 
           const ctx = canvas.current.getContext("2d");
           const barcode = new window.BarcodeDetector({
-            formats: ["codabar", "ean_13"],
+            formats: ["codabar", "ean_13"]
           });
 
           setInterval(() => {
@@ -27,17 +27,17 @@ function App() {
               video.current.videoHeigth
             );
             barcode.detect(canvas.current).then(([data]) => console.log(data))
-          }, 100);
+          }, 100)
         })
-        .catch((err) => console.log(err));
+        .catch((err) => console.log(err))
    
-  };
+  }
 
   return (
     <>
       <button onClick={openCam}>Open the Camera</button>
       <div>
-        <video ref={video} autoPlay muted />
+        <video ref={video} autoPlay muted  />
         <canvas ref={canvas} />
       </div>
     </>
