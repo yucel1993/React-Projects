@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <h1>Weather App</h1>
+      <p>Enter the city that you want to learn air condition</p>
       <main>
       <input
       type="text" 
