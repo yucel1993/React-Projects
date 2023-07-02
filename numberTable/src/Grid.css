@@ -1,0 +1,30 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .row {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+  }
+  
+  .box {
+    width: 12.5%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
