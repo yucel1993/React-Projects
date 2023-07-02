@@ -18,7 +18,7 @@ function MainCard() {
                   <p>Lesson Name: {name}</p>
                   <p>Lesson Hour: {hour}</p>
                 </div>
-                <div>{/* Add your icon element here */}</div>
+                
               </div>
             </div>
           </div>
