@@ -2,6 +2,7 @@
 
 This project displays a bar chart of population numbers for different countries. It uses the Recharts library to create the chart.
 
+Demo link  https://wordpopulationchart.netlify.app
 ## Table of Contents
 
 - [Installation](#installation)
