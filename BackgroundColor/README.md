@@ -3,6 +3,8 @@
 This is a simple React application that allows you to change the background color of the page by clicking a button. The background color is randomly generated using a hexadecimal color code.
 
 DemoLink:===> backgroundcolorchanger11.netlify.app
+Runs the app in the development mode.\
+Open [LessonRemainder](backgroundcolorchanger11.netlify.app) to view it in your browser.
 
 ## Features
 
