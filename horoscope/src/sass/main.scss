@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import "./reset","./variables";
+
+body {
+    font-family: 'Rubik Distressed', cursive;
+    background: linear-gradient(to right, rgb(198, 109, 118), rgb(61, 24, 9));
+
+}
+
+.mainTag{
+    color:rgb(43, 177, 106) ;
+    text-align: center;
+    margin:12rem;
+    text-decoration: underline;
+    word-spacing: 1rem;
+    font-size: 3rem;
+   
+    &:hover{
+        animation-name: color;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+
+        @keyframes color{
+            from{color: deeppink; left: 11px;}
+            to{color: rgb(134, 42, 204);right: 2;}
+        }
+    }
+}
+
+@media only screen and (max-width: 700px)  {
+   .mainTag{
+    margin:18rem;
+   }            
+  }

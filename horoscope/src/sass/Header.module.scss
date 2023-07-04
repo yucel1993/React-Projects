@@ -1,0 +1,61 @@
+@import "./variables";
+
+.container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+top: 0;
+width: 100%;
+background-color:#CD890C;
+
+
+  
+
+
+    .logo{
+
+
+        img{
+
+            width: 9rem;
+        }
+    }
+
+
+    .headings{
+
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: right;
+            cursor: pointer;
+             
+            }
+
+            li{
+
+                color: #171B20;
+                margin: 1.5rem;
+                font-size: 1.5rem;
+                &:hover {
+                    color: #CD890C;
+                    background-color: #171B20;
+                    border-radius: 5px;
+                    transform: scale(1.2);
+
+                }
+
+            }
+        }
+    }
+
+    @media only screen and (max-width: 700px)  {
+        .headings {
+         ul{
+             display: flex;
+             flex-direction: column;
+             line-height: 0rem;
+         }
+        }             
+      }

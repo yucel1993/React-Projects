@@ -1,0 +1,45 @@
+@import "./variables";
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+
+  .container {
+    color: rgb(225, 146, 172);
+    opacity: 0.5;
+    background-color: aqua;
+    margin: 2rem 2rem;
+    max-width: 350px;
+    border-radius: 1.3rem;
+    overflow: hidden;
+
+    h1 {
+      background-color: black;
+      width: fit-content;
+    }
+
+    h2 {
+      text-align: center;
+      background-color: black;
+      width: fit-content;
+      transform: translate(0rem, 5rem);
+    }
+
+    .description {
+      position: relative;
+      top: 100%;
+      transition: all 1s ease-in;
+      font-size: 1.4rem;
+    }
+
+    &:hover {
+      opacity: 1;
+      .description {
+        top: 0;
+        overflow-y: visible;
+        background-color: rgba(0, 0, 0, 0.638);
+        border-radius: 1.3rem;
+      }
+    }
+  }
+}
