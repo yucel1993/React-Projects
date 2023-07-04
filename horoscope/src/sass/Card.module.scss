@@ -15,12 +15,16 @@
 
     h1 {
       background-color: black;
+      width: -moz-fit-content; /* Firefox */
+      width: -webkit-fit-content; /* Chrome, Safari */
       width: fit-content;
     }
 
     h2 {
       text-align: center;
       background-color: black;
+      width: -moz-fit-content; /* Firefox */
+      width: -webkit-fit-content; /* Chrome, Safari */
       width: fit-content;
       transform: translate(0rem, 5rem);
     }
@@ -28,8 +32,9 @@
     .description {
       position: relative;
       top: 100%;
-      transition: all 1s ease-in;
+      transition: all 0.7s ease-in;
       font-size: 1.4rem;
+      
     }
 
     &:hover {
@@ -37,8 +42,9 @@
       .description {
         top: 0;
         overflow-y: visible;
+        
         background-color: rgba(0, 0, 0, 0.638);
-        border-radius: 1.3rem;
+        border-radius: 1rem;
       }
     }
   }
