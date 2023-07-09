@@ -7,5 +7,5 @@ Open your browser and visit [Demo Link] (https://nbalegendapp.netlify.app) to vi
 ## Horoscope
 Technologies: React SASS.module 
 <br/>
-[Demolink](https://horoscope12.netlify.app)
+Open your browser and visit [Demolink] (https://horoscope12.netlify.app) to view the app
 
