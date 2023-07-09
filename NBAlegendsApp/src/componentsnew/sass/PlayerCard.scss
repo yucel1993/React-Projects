@@ -1,0 +1,53 @@
+@import "./reset";
+@import "./variables";
+
+.cardsTop{
+
+    cursor: pointer;
+
+    img{
+        
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+
+        &:hover{
+            transition:all 0.3s;
+            transform: scale(1.5);
+            border: 1px solid red;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            opacity: 0.8;
+        }
+    }
+
+    h5{
+
+        padding: 1rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+
+.statisticsTop{
+
+    cursor: pointer;
+    list-style: none;
+    padding: 1rem;
+    background-color: $playerCardBackground;
+    background-image: url("../../assets/nba_background.jpg");
+    background-repeat:round;
+    background-size:cover;
+    height: 300px;
+    width: 200px;
+    border-radius: 0.5rem;
+    // height: 300px;
+    padding-top: 40%;
+    
+
+    li{
+        margin-bottom: 1rem;
+        font-weight: bold;
+        color: white;
+    }
+}
