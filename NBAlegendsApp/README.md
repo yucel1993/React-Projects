@@ -28,7 +28,7 @@ To run the app locally, follow these steps:
 
 4. Start the development server: `npm start`
 
-5. Open your browser and visit `[Demo Link](https://nbalegendapp.netlify.app)` to view the app.
+5. Open your browser and visit [Demo Link] (https://nbalegendapp.netlify.app) to view the app.
 
 ## Data Source
 
