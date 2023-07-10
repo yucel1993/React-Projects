@@ -7,6 +7,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    height: 100vh;
+}
 .heading {
     font-family: 'Rubik Distressed', cursive;
     color: deeppink;
@@ -29,7 +35,7 @@
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .mutual{
-    color: red;
+    color: white;
     font-size: 1.3rem;
 }
 .arrow{
@@ -42,9 +48,11 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s ease-in-out;
+    color: white;
   }
   
   .answer.visible {
-    max-height: 200px; /* Set the desired height for the transition */
+    max-height: 500px;
+    color: white; /* Set the desired height for the transition */
   }
   
