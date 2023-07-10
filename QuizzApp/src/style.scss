@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading {
+    font-family: 'Rubik Distressed', cursive;
+    color: deeppink;
+}
+
+.questionContainer{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.mutual{
+    color: red;
+    font-size: 1.3rem;
+}
+.arrow{
+    float: right;
+    &:hover{color: orange;
+    border-radius: 50%;}
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+  }
+  
+  .answer.visible {
+    max-height: 200px; /* Set the desired height for the transition */
+  }
+  
