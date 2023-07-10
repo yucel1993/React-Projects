@@ -15,4 +15,7 @@ Technologies: React
 <br/>
  Open your browser and visit  [Demo Link] (https://weatherprognoise.netlify.app)
 
-
+## Quizz App
+Tecnologies: React SASS Bootrap
+<br/>
+Open your browser and visit [Demo Link] (quizzapp12.netlify.app) to view the app.
