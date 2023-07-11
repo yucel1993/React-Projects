@@ -3,7 +3,7 @@
 ## Todo App
 Tecnologies: React CSS
 <br/>
-Open your browser and visit tOdo App] ([https://nbalegendapp.netlify.app) to view the app.
+Open your browser and visit todo App to view the app.
 
 ![DemoLink] (https://todoapporigin.netlify.app)
 
