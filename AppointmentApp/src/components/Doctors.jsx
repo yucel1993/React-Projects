@@ -1,19 +1,18 @@
 import { doctorData } from "../helper/data.js";
 import { useState } from "react";
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
 
 import Card from "react-bootstrap/Card";
 
 function Doctors({ handleClick }) {
   const [doctor, setDoctor] = useState("");
   const [toggle, setToggle] = useState(false);
-  const [patientName, setPatientName] = useState('');
-  const [appointmentDate, setAppointmentDate] = useState('');
+  const [patientName, setPatientName] = useState("");
+  const [appointmentDate, setAppointmentDate] = useState("");
 
   const handleModalOpen = (event) => {
     setDoctor(event);
@@ -44,7 +43,7 @@ function Doctors({ handleClick }) {
       {!toggle ? (
         doctorData.map(({ name, dep, img }, index) => {
           return (
-            <Col key={index}  className="d-flex flex-wrap">
+            <Col key={index} className="d-flex flex-wrap">
               <Card
                 style={{ width: "18rem" }}
                 onClick={() => handleModalOpen(name)}
@@ -87,14 +86,15 @@ function Doctors({ handleClick }) {
                   onChange={(e) => setAppointmentDate(e.target.value)}
                 />
               </Form.Group>
-              <div className="buton">              <Button variant="secondary " onClick={handleModalClose}>
-                Close
-              </Button>
-              <Button variant="primary " type="submit">
-                Save changes
-              </Button>
+              <div className="buton">
+                {" "}
+                <Button variant="secondary " onClick={handleModalClose}>
+                  Close
+                </Button>
+                <Button variant="primary " type="submit">
+                  Save changes
+                </Button>
               </div>
-
             </Form>
           </Modal.Body>
         </Modal>
