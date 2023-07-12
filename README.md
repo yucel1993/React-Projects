@@ -8,7 +8,7 @@ Open your browser and visit [Demo Link] (https://appointmentapp12.netlify.app) t
 ## Todo App
 Tecnologies: React CSS
 <br/>
-Open your browser and visit [Demo Link] (https://nbalegendapp.netlify.app) to view the app.
+Open your browser and visit [Demo Link] ((https://todoapporigin.netlify.app) to view the app.
 
 
 
