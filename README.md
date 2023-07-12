@@ -1,11 +1,16 @@
 # React-Projects
 
+## Appointment App
+Technologies : React SASS Bootstrap
+<br/>
+Open your browser and visit [Demo Link] (https://appointmentapp12.netlify.app) to view the app.
+
 ## Todo App
 Tecnologies: React CSS
 <br/>
-Open your browser and visit todo App to view the app.
+Open your browser and visit [Demo Link] (https://nbalegendapp.netlify.app) to view the app.
 
-![DemoLink] (https://todoapporigin.netlify.app)
+
 
 ## NBA -All Starts
 Tecnologies: React SASS Bootrap
