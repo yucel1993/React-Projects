@@ -48,6 +48,7 @@ function Doctors({ handleClick }) {
               <Card
                 style={{ width: "18rem" }}
                 onClick={() => handleModalOpen(name)}
+                role="button"
               >
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
