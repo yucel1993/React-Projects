@@ -44,7 +44,7 @@ function Doctors({ handleClick }) {
       {!toggle ? (
         doctorData.map(({ name, dep, img }, index) => {
           return (
-            <Col key={index} xl={4} l={3} md={6} sm={12}>
+            <Col key={index}  className="d-flex flex-wrap">
               <Card
                 style={{ width: "18rem" }}
                 onClick={() => handleModalOpen(name)}
