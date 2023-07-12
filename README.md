@@ -1,4 +1,6 @@
 # React-Projects
+This repository will be helpfull for the new beginner developers to understand React principles.
+Anytime you can ask question about the the repository.
 
 ## Appointment App
 Technologies : React SASS Bootstrap
@@ -9,7 +11,6 @@ Open your browser and visit [Demo Link] (https://appointmentapp12.netlify.app) t
 Tecnologies: React CSS
 <br/>
 Open your browser and visit [Demo Link] ((https://todoapporigin.netlify.app) to view the app.
-
 
 
 ## NBA -All Starts
