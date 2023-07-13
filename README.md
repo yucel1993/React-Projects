@@ -9,7 +9,7 @@ Technologies : React SASS Bootstrap
 Open your browser and visit [Demo Link] (https://appointmentapp12.netlify.app) to view the app.
 #### Second link is getting information from App1.js , App1.css and Components-1.
 #### Basically latest version of the App.
-####  I you double click the appointment box then you will se th e consulted sign
+####  If you click double the appointment box, then you will see the consulted sign
 Open your browser and visit [Demo Link] (https://appointmentappversionlast.netlify.app) to view the app.
 
 ## Todo App
