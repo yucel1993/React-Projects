@@ -26,7 +26,7 @@ function AppointmentList({ apps, setApps }) {
 
       {apps.map(({ id, patient, consulted, doctor, day }) => (
         <div
-          onClick={() => handleDoubleClick(id)}
+          onDoubleClick={() => handleDoubleClick(id)}
           key={id}
           className={`appointments ${consulted ? "consulted" : ""}`}
         >
