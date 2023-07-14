@@ -34,6 +34,10 @@ Technologies: React
 <br/>
  Open your browser and visit  [Demo Link] (https://weatherprognoise.netlify.app)
 
+ <br/>
+
+ <img src="./QuizzApp/weatherGif.gif"/>
+
 ## Quizz App
 Technologies: React SASS Bootrap
 <br/>
