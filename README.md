@@ -27,6 +27,10 @@ Open your browser and visit [Demo Link] (https://nbalegendapp.netlify.app) to vi
 Technologies: React SASS.module 
 <br/>
 Open your browser and visit [Demolink] (https://horoscope12.netlify.app) to view the app
+ <br/>
+
+ <img src="./horoscope/horoscope.gif"/>
+horoscope
 
 ## Weather Api
 
