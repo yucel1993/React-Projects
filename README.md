@@ -16,7 +16,8 @@ Open your browser and visit [Demo Link] (https://appointmentappversionlast.netli
 Tecnologies: React CSS
 <br/>
 Open your browser and visit [Demo Link] ((https://todoapporigin.netlify.app) to view the app.
-
+<br/>
+<img src="./toDoApp/todoPicture.gif" alt="picture">
 
 ## NBA -All Starts
 Tecnologies: React SASS Bootrap
