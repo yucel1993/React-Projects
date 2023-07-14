@@ -36,7 +36,7 @@ Technologies: React
 
  <br/>
 
- <img src="./WeatherApi/weatherGif"/>
+ <img src="./WeatherApi/weatherGif.gif"/>
 
 ## Quizz App
 Technologies: React SASS Bootrap
