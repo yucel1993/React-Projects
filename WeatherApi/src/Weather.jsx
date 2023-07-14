@@ -24,8 +24,8 @@ export default function Weather({ city }) {
       {weatherData ? (
         <>
           <h2>City: {weatherData.name}</h2>
-          <p>Temperature: {weatherData.main.temp}°C</p>
-          <p>Weather: {weatherData.weather[0].description}</p>
+          <h2>Temperature: {weatherData.main.temp}°C</h2>
+          <h2>Weather: {weatherData.weather[0].description}</h2>
           {weatherData.weather[0].icon && (
             <img
               src={`http://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`}

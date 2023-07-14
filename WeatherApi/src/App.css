@@ -1,4 +1,13 @@
 
+body{
+    
+    background: linear-gradient(45deg, rgb(223, 215, 215), blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: deeppink;
+}
+
 .App {
     text-align: center;
     justify-content: center;
