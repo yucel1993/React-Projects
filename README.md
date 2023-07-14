@@ -40,4 +40,4 @@ Technologies: React SASS Bootrap
 Open your browser and visit [Demo Link] (https://quizzapp12.netlify.app) to view the app.
 <br/>
 
-<img src="./quiizApp.gif"/>
+<img src="./QuizzApp/quiizApp.gif"/>
