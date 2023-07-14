@@ -16,12 +16,16 @@ Open your browser and visit [Demo Link] (https://appointmentappversionlast.netli
 Tecnologies: React CSS
 <br/>
 Open your browser and visit [Demo Link] ((https://todoapporigin.netlify.app) to view the app.
-
+<br/>
+<img src="./toDoApp/todoPicture.gif" alt="picture">
 
 ## NBA -All Starts
 Tecnologies: React SASS Bootrap
 <br/>
 Open your browser and visit [Demo Link] (https://nbalegendapp.netlify.app) to view the app.
+ <br/>
+
+ <img src="./NBAlegendsApp/nba.gif"/>
 
 ## Horoscope
 Technologies: React SASS.module 
@@ -30,7 +34,7 @@ Open your browser and visit [Demolink] (https://horoscope12.netlify.app) to view
  <br/>
 
  <img src="./horoscope/horoscope.gif"/>
-horoscope
+
 
 ## Weather Api
 
