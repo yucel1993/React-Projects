@@ -1,5 +1,5 @@
 # React-Projects
-This repository will be helpfull for the new beginner developers to understand React principles.
+This repository will be helpfull for the  developers to understand React principles.
 <br/>
 Anytime you can ask question about the the repository.
 
