@@ -11,7 +11,7 @@ UseEffect and UseState
 Open your browser and visit [Demo Link] (https://nbalegendapp.netlify.app) to view the app.
 <br/>
 
-<img src="./tutorialApp/tutorial.gif.gif"/>
+<img src="./tutorialApp/tutorial.gif"/>
 
 
 
