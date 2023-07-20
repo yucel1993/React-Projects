@@ -8,7 +8,7 @@ Tecnologies: React  Bootrap Axios
 UseEffect and UseState
 
 <br/>
-Open your browser and visit [Demo Link] (https://nbalegendapp.netlify.app) to view the app.
+Open your browser and visit [Demo Link] (https://tutorialapporigin.netlify.app) to view the app.
 <br/>
 
 <img src="./tutorialApp/tutorial.gif"/>
