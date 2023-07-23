@@ -41,7 +41,7 @@
 
 // !  under there is useparams section above useState,lifting state
 
-import { Link } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 
 function Header() {
   const productCategories = ["All", "men's clothing", "women's clothing", "electronics", "jewelery"];
@@ -50,9 +50,9 @@ function Header() {
     <div>
      
       {productCategories.map((category, i) => (
-        <Link key={i} to={`/productcard/${category}`} className="btn btn-danger">
+        <NavLink   key={i} to={`/productcard/${category}`} className="btn btn-danger mx-1 mt-4  px-1">
           {category}
-        </Link>
+        </NavLink>
       ))}
     </div>
   );
