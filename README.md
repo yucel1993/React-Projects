@@ -11,7 +11,7 @@ UseEffect and UseState and useParams and React Rooters
 Open your browser and visit [Demo Link] (https://productionlist.netlify.app) to view the app.
 <br/>
 
-<img src="./productList/product.gif"/>
+<img src="./productList/product(1).gif"/>
 
 
 
