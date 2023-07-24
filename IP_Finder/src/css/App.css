@@ -1,0 +1,50 @@
+.cardTable{
+    border: 10px solid #CEE6F3;
+    border-radius: 0.5rem;
+}
+
+
+input {
+
+    background-color: transparent;
+    border: 1px solid #7B8FA1;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    align-items: center;
+}
+
+.wifiIcon{
+    text-align: right;
+}
+
+.btnSearch{
+    text-align: left;
+}
+
+.navs{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1rem;
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+}
+
+input{
+    width: 100%;
+}
+
+.links{
+    text-decoration: none;
+    color: #CEE6F3;
+    font-size: 1.3rem;
+}
+
+*{
+    background-color: #FCAEAE;
+}
+
