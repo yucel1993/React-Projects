@@ -7,7 +7,7 @@ Anytime you can ask question about the the repository.
 
 ## LoginLogout Website
 Tecnologies: React  Bootrap Axios 
-UseEffect and UseState
+react-router-dom   and ContextApi
 
 <br/>
 Open your browser and visit [Demo Link] (https://loginlogout12.netlify.app) to view the app.
