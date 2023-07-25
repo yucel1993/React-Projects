@@ -4,7 +4,7 @@ import {imageData} from "../../helper/imageData.jsx";
 function Project() {
   return (
     <div className="project">
-      <h2>My Projects</h2>
+      <h2 className="title">My Projects</h2>
       <main>
         <div>
           <i class="fa-brands fa-twitter"></i>
