@@ -54,6 +54,14 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+   img{
+    &:hover{
+      // opacity: 0.5;
+      // filter: grayscale(47%);
+
+      filter: sepia(100%);
+    }
+   }
     /* Add some spacing between rows if needed */
   }
   
