@@ -11,7 +11,7 @@ Tecnologies: React  Sass and react router dom
  React Rooters
 
 <br/>
-Open your browser and visit [Demo Link] (https://.netlify.app) to view the app.
+Open your browser and visit [Demo Link] (https://portfolioorigin.netlify.app) to view the app.
 <br/>
 
 <img src="./portfolio/portfolio.gif"/>
