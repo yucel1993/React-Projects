@@ -1,0 +1,43 @@
+@import "reset.scss","variables.scss","mixin.scss";
+
+body {
+  background-image: url("../assets/img/model-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: $font-family;
+  object-fit: cover;
+}
+
+.App {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* 50% black overlay using rgba */
+  @media (max-width: 768px) {
+    font-size: 14px; /* Reduce the font size for smaller screens */
+  }
+
+  /* Media query for screens with a minimum width of 769px (larger screens) */
+  @media (min-width: 769px) {
+    font-size: 16px; /* Set the default font size for larger screens */
+  }
+
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Reduce the font size for smaller screens */
+  }
+}
+
+/* Media query for screens with a minimum width of 769px (larger screens) */
+@media (min-width: 769px) {
+  body {
+    font-size: 16px; /* Set the default font size for larger screens */
+  }
+}

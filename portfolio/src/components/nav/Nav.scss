@@ -1,0 +1,40 @@
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin-top: 0.2rem;
+    margin-right: 2rem;
+  
+    li {
+      text-decoration: none;
+      font-size: 1.4rem;
+      margin: 1rem;
+  
+      .nav-link {
+        transition: all 1s ease-in-out;
+        color: #eee;
+        text-decoration: none;
+        font-weight: 500;
+      }
+  
+      .active {
+        transition: all 1s ease-in-out;
+        color: #ff652f;
+      }
+    }
+  }
+  
+  /* Media query for screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    ul {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    li {
+      margin: 0.5rem;
+      font-size: 1.2rem;
+    }
+  }
+  

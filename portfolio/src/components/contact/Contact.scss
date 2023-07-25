@@ -1,0 +1,127 @@
+.contact-h1 {
+    color: white;
+    text-align: center;
+    margin-top: 24%;
+  }
+  
+  .contact {
+    color: orange;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    text-align: center;
+    .fa-solid {
+      color: white;
+      font-size: 3rem;
+      display: inline-block;
+    }
+    p {
+      margin-top: 2rem;
+      font-size: 1.4rem;
+    }
+  }
+  
+  .contact-icons {
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+    transition: all 2s ease-in-out;
+    i {
+      font-size: 2rem;
+      margin-right: 2rem;
+      &:hover {
+        color: red;
+      }
+    }
+    h2 {
+      margin-top: 2rem;
+    }
+  }
+  
+  /* Media queries */
+  
+  /* For screens with a maximum width of 480px */
+  @media (max-width: 480px) {
+    .contact-h1 {
+      font-size: 2rem;
+      margin-top: 16%;
+    }
+  
+    .contact {
+      flex-direction: column;
+      align-items: center;
+      .fa-solid {
+        font-size: 2rem;
+      }
+      p {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+      }
+    }
+  
+    .contact-icons {
+      i {
+        font-size: 1.5rem;
+      }
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  
+  /* For screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    .contact-h1 {
+      font-size: 2.5rem;
+      margin-top: 12%;
+    }
+  
+    .contact {
+      flex-direction: column;
+      align-items: center;
+      .fa-solid {
+        font-size: 2.5rem;
+      }
+      p {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+      }
+    }
+  
+    .contact-icons {
+      i {
+        font-size: 1.8rem;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+    }
+  }
+  
+  /* For screens with a minimum width of 769px (larger screens) */
+  @media (min-width: 769px) {
+    .contact-h1 {
+      font-size: 3rem;
+      margin-top: 8%;
+    }
+  
+    .contact {
+      flex-direction: row;
+      .fa-solid {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1.6rem;
+      }
+    }
+  
+    .contact-icons {
+      i {
+        font-size: 2.2rem;
+      }
+      h2 {
+        font-size: 1.6rem;
+      }
+    }
+  }
+  

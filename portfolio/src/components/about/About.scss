@@ -1,0 +1,117 @@
+.about {
+  text-align: center;
+  color: white;
+  margin-top: 20%;
+  h2 {
+    font-size: 2rem;
+    color: deeppink;
+    margin-bottom: 1rem;
+  }
+  p {
+    color: white;
+    font-size: 1.3rem;
+  }
+}
+
+.footer-about {
+  background-color: rgb(42, 40, 40);
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+
+  .card {
+    background-color: rgba($color: #4d4444, $alpha: 1.0);
+    margin: auto;
+    color: white;
+    padding: 2rem;
+    width: 100vh;
+    border-bottom: 4px solid orangered;
+  }
+}
+
+main {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+
+  div {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    .fa-brands {
+      color: white;
+      font-size: 2rem;
+      margin-right: 1rem;
+
+      transition: all 1s ease-in-out;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+  h2 {
+    color: white;
+    position: fixed;
+    right: 1rem;
+    bottom: 23%; /* Position the element at the bottom-center */
+    transform: rotate(-90deg); /* Rotate the element by -90 degrees */
+    transform-origin: bottom right; /* Set the rotation origin to bottom right */
+  }
+}
+
+/* Media queries */
+
+/* For screens with a maximum width of 480px */
+@media (max-width: 480px) {
+  .about {
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .footer-about {
+    height: auto; /* Adjust the height to fit content on smaller screens */
+  }
+
+  .card {
+    width: 90vw; /* Adjust the width to fit the screen width on smaller screens */
+  }
+}
+
+/* For screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .about {
+    h2 {
+      font-size: 1.8rem;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+  }
+
+  .footer-about {
+    height: auto; /* Adjust the height to fit content on smaller screens */
+  }
+
+  .card {
+    width: 70vw; /* Adjust the width to fit the screen width on medium-sized screens */
+  }
+}
+
+/* For screens with a minimum width of 769px (larger screens) */
+@media (min-width: 769px) {
+  .about {
+    h2 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.3rem;
+    }
+  }
+}

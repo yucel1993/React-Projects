@@ -1,0 +1,129 @@
+.project h2 {
+    text-align: center;
+    color: white;
+    margin-top: 24%;
+    font-weight: 700;
+  }
+  
+  main {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+  
+    div {
+      margin-left: 1rem;
+      display: flex;
+      flex-direction: column;
+      margin-left: 2rem;
+      .fa-brands {
+        color: white;
+        font-size: 2rem;
+        margin-right: 1rem;
+  
+        transition: all 1s ease-in-out;
+        &:hover {
+          color: red;
+        }
+      }
+    }
+    h2 {
+      color: white;
+      position: fixed;
+      right: 1rem;
+      bottom: 23%; /* Position the element at the bottom-center */
+      transform: rotate(-90deg); /* Rotate the element by -90 degrees */
+      transform-origin: bottom right; /* Set the rotation origin to bottom right */
+    }
+  }
+  
+  .project-down {
+    background-color: rgb(54, 50, 50);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .image {
+    margin: 5px;
+    /* Add margin around each image */
+  }
+  
+  .image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    /* Add some spacing between rows if needed */
+  }
+  
+  /* Media queries */
+  
+  /* For screens with a maximum width of 480px */
+  @media (max-width: 480px) {
+    .project h2 {
+      font-size: 2rem;
+      margin-top: 16%;
+    }
+  
+    main {
+      flex-direction: column;
+      align-items: center;
+      h2 {
+        font-size: 1.8rem;
+      }
+      div {
+        margin-left: 0;
+        margin-bottom: 1rem;
+        .fa-brands {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+  
+  /* For screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    .project h2 {
+      font-size: 2.5rem;
+      margin-top: 12%;
+    }
+  
+    main {
+      flex-direction: column;
+      align-items: center;
+      h2 {
+        font-size: 2rem;
+      }
+      div {
+        margin-left: 0;
+        margin-bottom: 1rem;
+        .fa-brands {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  
+  /* For screens with a minimum width of 769px (larger screens) */
+  @media (min-width: 769px) {
+    .project h2 {
+      font-size: 3rem;
+      margin-top: 8%;
+    }
+  
+    main {
+      flex-direction: row;
+      h2 {
+        font-size: 2.5rem;
+      }
+      div {
+        margin-left: 1rem;
+        margin-bottom: 0;
+        .fa-brands {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  
