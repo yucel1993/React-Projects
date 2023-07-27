@@ -4,8 +4,8 @@ This repository will be helpfull for the  developers to understand React princip
 Anytime you can ask question about the the repository.
 
 
-## Portfolio
-Tecnologies: React  Sass and react router dom
+## Shooping App
+Tecnologies: React  Sass and react router dom ContextAPI
  React Rooters
 
 <br/>
@@ -14,7 +14,7 @@ Open your browser and visit [Demo Link] (https://shoopingcart11.netlify.app) to 
 
 <img src="./shoopingApp/shoop.gif"/>
 
-
+#### Checkout Part will be completed with stripe
 
 ## Portfolio
 Tecnologies: React  Sass and react router dom
