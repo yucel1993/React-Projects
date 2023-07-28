@@ -8,7 +8,7 @@ Tecnologies: React  Styled Components and react router dom and ContextAPI
  React Rooters
 
 <br/>
-Open your browser and visit [Demo Link] (https://shoopingcart11.netlify.app) to view the app.
+Open your browser and visit [Demo Link](https://libraryappv2.netlify.app) to view the app.
 <br/>
 
 <img src="./Library App/book.gif"/>
