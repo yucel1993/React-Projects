@@ -23,7 +23,7 @@ Tecnologies: React  styled components
 Open your browser and visit [Demo Link] (https://react-tailwind12.netlify.app) to view the app.
 <br/>
 
-
+<img src="./onePage/StyledComponent/styled.gif"/>
 
 ## movieRating
 Tecnologies: React  Bootstrap
