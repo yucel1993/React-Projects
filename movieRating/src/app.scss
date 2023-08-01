@@ -1,0 +1,71 @@
+body {
+    /* background-image: url("./helper/film2.jpg"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 96vh;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .my_card {
+    background-color: hsla(0, 6%, 12%, 0.4);
+    max-width: 400px;
+    margin: auto;
+    border-radius: 1rem;
+    box-shadow: 0 20px 30px -10px #26394d;
+    min-height: 50vh;
+    min-width: 70%;
+    padding: 1rem;
+  }
+  .years {
+    cursor: pointer;
+  
+    .year {
+      position: relative; /* İçeriklerin konumlandırılması için ana öğeye göre pozisyonu ayarla */
+      display: flex;
+      height: 40px;
+      padding: 5px;
+      // background-color: #fefbff29;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+  
+      &:hover {
+        background-color: orange;
+        /* Alt kenarlık eklemek için before pseudo-element kullan */
+       
+      }
+    }
+  }
+  
+  
+    .main {
+      display: flex !important; /* Display the elements in a row */
+      gap: 5rem; /* Gap between the two components */
+    }
+    .years {
+      flex-direction: row !important;
+      flex-wrap: wrap !important;
+      margin-bottom: 0 !important;
+      gap: 0 3rem !important;
+    }
+    .right_card {
+      padding: 0 !important;
+    }
+  
+  
+  .card {
+    /* margin-top: 20px;
+    background-color: hsla(0, 24%, 96%, 0.4); */
+    /* max-width: 100px;
+    max-height: 70vh; */
+    /* /* min-height: 40vh; */
+    /* min-width: 100px !important; */
+    /* border-radius: 1rem;
+    box-shadow: 0 20px 30px -10px #26394d;
+    height: 40vh;
+    width: 40%;
+    padding: 1rem; */
+  }
+  
