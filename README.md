@@ -15,7 +15,7 @@ Tecnologies: React  tailwind
 Open your browser and visit [Demo Link] (https://react-tailwind12.netlify.app) to view the app.
 <br/>
 
-<img src="./onePage/react-tailwind/tailwind.gif"/>
+<img src="./onePage/tailwind/tailwind.gif"/>
 
 ### react-styled components
 Tecnologies: React  styled components
