@@ -3,6 +3,28 @@ This repository will be helpfull for the  developers to understand React princip
 <br/>
 Anytime you can ask question about the the repository.
 
+
+## onePage Website
+
+### react-tailwind
+
+Tecnologies: React  tailwind 
+ 
+
+<br/>
+Open your browser and visit [Demo Link] (https://react-tailwind12.netlify.app) to view the app.
+<br/>
+
+<img src="./onePage/react-tailwind/tailwind-gif"/>
+
+### react-styled components
+Tecnologies: React  styled components
+<br/>
+Open your browser and visit [Demo Link] (https://react-tailwind12.netlify.app) to view the app.
+<br/>
+
+
+
 ## movieRating
 Tecnologies: React  Bootstrap
  
