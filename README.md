@@ -3,6 +3,17 @@ This repository will be helpfull for the  developers to understand React princip
 <br/>
 Anytime you can ask question about the the repository.
 
+## movieRating
+Tecnologies: React  Bootstrap
+ 
+
+<br/>
+Open your browser and visit [Demo Link] (https://movierating12.netlify.app) to view the app.
+<br/>
+
+<img src="./movieRating/rating.gif"/>
+
+
 ## Library App
 Tecnologies: React  Styled Components and react router dom and ContextAPI
  React Rooters
