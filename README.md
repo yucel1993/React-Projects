@@ -14,15 +14,15 @@ Tecnologies: React  tailwind
 <br/>
 Open your browser and visit [Demo Link] (https://react-tailwind12.netlify.app) to view the app.
 <br/>
-
+<br/>
 <img src="./onePage/tailwind/tailwind.gif"/>
 
 ### react-styled components
 Tecnologies: React  styled components
 <br/>
-Open your browser and visit [Demo Link] (https://react-tailwind12.netlify.app) to view the app.
+Open your browser and visit [Demo Link] (https://react-styled12.netlify.app) to view the app.
 <br/>
-
+<br/>
 <img src="./onePage/StyledComponent/styled.gif"/>
 
 ## movieRating
