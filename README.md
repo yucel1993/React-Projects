@@ -10,7 +10,7 @@ Tecnologies: React  Bootstrap Sass
  
 
 <br/>
-Open your browser and visit [Demo Link] (https://movierating12.netlify.app) to view the app.
+Open your browser and visit [Demo Link] (https://shoopingcartv2.netlify.app) to view the app.
 <br/>
 
 <img src="./Shooping_App_v2/cart.gif"/>
