@@ -1,0 +1,114 @@
+/* Make images cover the entire card */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(129, 125, 125, 0), rgb(221, 212, 212));
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  z-index: 2;
+  span .cart-count {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+  
+}
+.header{
+  margin-top: 5rem;
+}
+.dashboard-selector{
+ 
+  width: 7rem;
+  height: 4rem;
+  vertical-align: middle;
+  margin: auto;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+
+
+
+.card{
+  
+  overflow: hidden;
+height: 60rem;
+
+.image-div{   
+  padding: 1rem;
+  height: 15rem;
+  
+  img {
+    width: 70%;
+    height: 100%;
+     object-fit: cover; 
+     margin: auto;
+  }}
+
+
+
+  .name-price{
+    display: flex;
+    justify-content: space-between;
+    height: 7rem;
+  }
+}
+
+
+  
+  /* Center the price on the picture */
+
+  .cart-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .item-details {
+    display: flex;
+  }
+  
+  .item-image {
+    margin-right: 10px;
+  }
+  
+  .item-info {
+    flex: 1;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-button {
+    border: none;
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .item-quantity {
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
