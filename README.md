@@ -4,6 +4,20 @@ This repository will be helpfull for the  developers to understand React princip
 Anytime you can ask question about the the repository.
 
 
+
+## Shooping Cart v2
+Tecnologies: React  Bootstrap Sass
+ 
+
+<br/>
+Open your browser and visit [Demo Link] (https://movierating12.netlify.app) to view the app.
+<br/>
+
+<img src="./Shooping_App_v2/cart.gif"/>
+
+
+
+
 ## onePage Website
 
 ### react-tailwind
