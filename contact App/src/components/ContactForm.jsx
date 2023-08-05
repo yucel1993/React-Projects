@@ -1,3 +1,6 @@
+
+import  InputMask  from 'react-input-mask';
+        
 function ContactForm({ handleSubmit, info, setInfo }) {
   const handleChange = (e) => {
     console.log(e.target.value);
@@ -91,12 +94,14 @@ function ContactForm({ handleSubmit, info, setInfo }) {
             >
               Phone NUMBER
             </label>
-            <input
+            <InputMask
               className="text-gray-700 appearance-none block w-full bg-gray-200  border border-gray-200 rounded  py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="grid-last-name"
-              type="number"
+              // type="date"
               placeholder="Enter your Phone Number"
               name="number"
+              maskChar="-"
+              mask="99/99/9999"
               onChange={handleChange}
               value={info.number}
             />
