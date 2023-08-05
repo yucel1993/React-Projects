@@ -9,7 +9,7 @@ function Home() {
 
   return (
     <>
-      <Header setSelectedCategory={setSelectedCategory} />
+      <Header  />
       <Routes>
         <Route
           path="/productcard/:category"
