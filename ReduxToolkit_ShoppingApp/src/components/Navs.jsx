@@ -1,9 +1,14 @@
 import * as React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Rozet from './Rozet';
+import { useDispatch, useSelector } from 'react-redux';
+import { setLogOut } from '../feature/autSlice';
 
 
 function Navs() {
+  const {user} =useSelector((state)=>state.auth)
+  const dispacth=useDispatch()
+
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(false);
 
@@ -50,12 +55,15 @@ function Navs() {
                       <li>
                           <Link to="/" className='text-md hover:bg-slate-200 hover:rounded-sm p-3'>Home</Link>
                       </li>
-                      <li>
-                      <Link className='text-md hover:bg-slate-200  hover:rounded-sm p-3' to='/login'>Login</Link>
-                      </li>
-                      <li>
+                      {user?.mail && user?.password ? (<li>
+                      <Link className='text-md hover:bg-slate-200  hover:rounded-sm p-3' to='/login'>Logout</Link>
+                      </li>) :(<li>
+                      <Link className='text-md hover:bg-slate-200  hover:rounded-sm p-3' to='/login' onClick={()=>dispacth(setLogOut())} >Login</Link>
+                      </li>) }
+                      
+                      {/* <li>
                       <Link className='text-md hover:bg-slate-200 hover:rounded-sm p-3' to="/register">Register</Link>
-                      </li>
+                      </li> */}
                   </ul>
 
                   <ul className='flex justify-center items-end'>

@@ -1,0 +1,1 @@
+REACT_APP_API_KEY="YourApi key from https://newsapi.org"
