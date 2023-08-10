@@ -6,6 +6,24 @@ Anytime you can ask question about the the repository.
 
 
 
+## ReduxToolkit_News
+Tecnologies: React  Bootstrap Sass
+ 
+
+<br/>
+Open your browser and visit [Demo Link] (https://newsapiv2.netlify.app/login) to view the app.
+<br/>
+
+<img src="./ReduxToolkit_News/news.gif"/>
+
+
+
+
+
+
+
+
+
 ## Contact App
 Tecnologies: React  Bootstrap Sass
  
