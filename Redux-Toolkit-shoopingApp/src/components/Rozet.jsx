@@ -20,11 +20,12 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
 
 export default function Rozet() {
 
+  const count = useSelector((state)=>state.items.count)
 
   return (
     <IconButton
     aria-label="cart">
-      <StyledBadge badgeContent={0} className='text-red-600'>
+      <StyledBadge badgeContent={count} className='text-red-600'>
         <ShoppingCartIcon className='text-black' />
       </StyledBadge>
     </IconButton>

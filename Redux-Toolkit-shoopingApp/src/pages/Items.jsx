@@ -1,9 +1,12 @@
-import React, { useEffect,useState } from 'react'
+import React, { useContext,useEffect,useState } from 'react'
 import { useNavigate } from 'react-router';
 import axios from 'axios';
 import {MdAttachMoney} from 'react-icons/md'
+import { useDispatch, useSelector } from 'react-redux';
+import { addToBasket, new_item, successInfo } from '../store/ItemsReducer';
 import {BiCartAdd} from 'react-icons/bi'
 import {AiOutlineRead} from 'react-icons/ai'
+import {toastSuccessNotify} from '../helper/ToastNotify'
 
 
 
@@ -13,6 +16,7 @@ export const Items = ({secilendata}) => {
 
   const [products, setProducts] = useState([])
 
+  const dispatch=useDispatch()
 
 
   const API_SELECT_PRODUCTS=`https://dummyjson.com/products/category/${secilendata}`
@@ -83,7 +87,7 @@ export const Items = ({secilendata}) => {
 
           <AiOutlineRead className='hover:text-white' size={'30px'} onClick={()=>navigate(`details/${item?.id}`,{state:item})}/>
           {/* <BiCartAdd className='hover:text-white' size={'30px'} onClick={()=>dispatch(new_item(item))}/> */}
-          <BiCartAdd className='hover:text-white' size={'30px'} />
+          <BiCartAdd className='hover:text-white' size={'30px'} onClick={()=>dispatch(new_item(item))}/>
           
           </div>
 

@@ -1,6 +1,8 @@
 import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import { useLocation,useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
+import { new_item } from '../store/ItemsReducer'
 import {BsCartPlus} from 'react-icons/bs'
 
 
@@ -9,7 +11,10 @@ export const ItemDetails = () => {
   const {state} = useLocation()
   const {id} = useParams()
 
-  
+  const dispatch=useDispatch()
+
+  const products=useSelector((state)=>state.items.products)
+
 
   return (
    
@@ -29,7 +34,7 @@ export const ItemDetails = () => {
             
             <div className='flex justify-between items-center'>
             <p className="text-gray-700 text-base mb-3">Category : {state?.category}</p>
-            <BsCartPlus size={'25px'} className='hover:cursor-pointer hover:text-blue-500'/>
+            <BsCartPlus size={'25px'} className='hover:cursor-pointer hover:text-blue-500' onClick={()=>dispatch(new_item(state))}/>
             </div>
             
 
