@@ -11,8 +11,9 @@ function Search({ searchText }) {
 
   const fetchNews = async (query) => {
     try {
+      const API_KEY=process.env.REACT_APP_API_KEY
       const response = await fetch(
-        `https://newsapi.org/v2/everything?q=${query}&apiKey=3a86dc7bdc254fb38cd93735d62d40d1&language=en`
+        `https://newsapi.org/v2/everything?q=${query}&apiKey=${API_KEY}&language=en`
       );
       const data = await response.json();
       setArticles(data.articles);
