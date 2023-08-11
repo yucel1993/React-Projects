@@ -7,7 +7,7 @@ Anytime you can ask question about the the repository.
 
 
 ## ReduxToolkit_News
-Tecnologies: React  Bootstrap Sass
+Tecnologies: React  Bootstrap MUI
  
 
 <br/>
