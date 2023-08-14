@@ -9,7 +9,7 @@ Tecnologies: React  Bootstrap MUI
  
 
 <br/>
-Open your browser and visit [Demo Link] (https://newsapiv2.netlify.app/login) to view the app.
+Open your browser and visit [Demo Link] (https://react-projects-sable-nine.vercel.app) to view the app.
 <br/>
 
 <img src="./foodApp/food.gif"/>
