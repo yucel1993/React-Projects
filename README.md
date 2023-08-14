@@ -4,6 +4,21 @@ This repository will be helpfull for the  developers to understand React princip
 Anytime you can ask question about the the repository.
 
 
+## Food App
+Tecnologies: React  Bootstrap MUI
+ 
+
+<br/>
+Open your browser and visit [Demo Link] (https://newsapiv2.netlify.app/login) to view the app.
+<br/>
+
+<img src="./foodApp/food.gif"/>
+
+
+
+
+
+
 
 
 ## ReduxToolkit_News
