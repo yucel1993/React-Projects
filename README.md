@@ -13,7 +13,7 @@ Tecnologies: React  Bootstrap MUI
 Open your browser and visit [Demo Link] (https://react-projects-sable-nine.vercel.app) to view the app.
 <br/>
 
-<img src="./nikeLandingPage/landingPage.gif"/>
+<img src="./nikeLandingPage/landingPage.png"/>
 
 
 
