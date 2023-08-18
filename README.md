@@ -6,7 +6,7 @@ Anytime you can ask question about the the repository.
 
 
 ## Nike Landing App
-Tecnologies: React  Bootstrap MUI
+Tecnologies: React  Tailwind
  
 
 <br/>
