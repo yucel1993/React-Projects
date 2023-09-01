@@ -10,7 +10,7 @@ Tecnologies: React  Tailwind
  
 
 <br/>
-Open your browser and visit [Demo Link] (nikelandingpage-ub39vhq3k-yucel1993.vercel.app) to view the app.
+Open your browser and visit [Demo Link] (https://nikelandingpage-ub39vhq3k-yucel1993.vercel.app) to view the app.
 <br/>
 
 <img src="./nikeLandingPage/landingPage.png"/>
