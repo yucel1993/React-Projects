@@ -2,7 +2,7 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
 import { useMediaQuery } from '@mui/material';
-import { useState, useEffect } from 'react';
+
 
 const Filter = ({ data,info,setInfo }) => {
   const isXsScreen = useMediaQuery('(min-width:900px)');
