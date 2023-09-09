@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react';
+
 import Grid from '@mui/material/Grid';
 import Item from "./helper/functions";
-import Filter, { FilterInfo } from './components/Filter';
+import Filter from './components/Filter';
 import Product, { ProductData } from './components/Product';
+import { useEffect, useState } from 'react';
 
 interface ProductInfo {
   name: string;
