@@ -5,6 +5,19 @@ Anytime you can ask question about the the repository.
 
 
 
+
+
+## Filtered Shooping Page
+Tecnologies: Typescript React MUI 
+ 
+
+<br/>
+Open your browser and visit [Demo Link] (https://storeapp-7mcddnelw-yucel1993.vercel.app) to view the app.
+<br/>
+
+<img src="./FilteredShoopingList/filteredShopApp.png"/>
+
+
 ## Nike Landing App
 Tecnologies: React  Tailwind
  
