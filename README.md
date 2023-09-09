@@ -6,11 +6,11 @@ Anytime you can ask question about the the repository.
 
 
 ## Nike Landing App
-Tecnologies: React  Bootstrap MUI
+Tecnologies: React  Tailwind
  
 
 <br/>
-Open your browser and visit [Demo Link] (https://react-projects-sable-nine.vercel.app) to view the app.
+Open your browser and visit [Demo Link] (https://nikelandingpage-ub39vhq3k-yucel1993.vercel.app) to view the app.
 <br/>
 
 <img src="./nikeLandingPage/landingPage.png"/>
