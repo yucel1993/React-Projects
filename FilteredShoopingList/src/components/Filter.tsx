@@ -1,18 +1,30 @@
+import React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
 import { useMediaQuery } from '@mui/material';
 
+interface FilterProps {
+  data: any[];
+  info: FilterInfo;
+  setInfo: React.Dispatch<React.SetStateAction<FilterInfo>>;
+}
 
-const Filter = ({ data,info,setInfo }) => {
+export interface FilterInfo {
+  name: string;
+  category: string;
+  brand: string;
+  sort: string;
+}
+
+const Filter: React.FC<FilterProps> = ({ data, info, setInfo }) => {
   const isXsScreen = useMediaQuery('(min-width:900px)');
-  
 
   // Use Sets to store unique category and brand names
   const uniqueCategories = new Set(data.map((item) => item.category));
   const uniqueBrands = new Set(data.map((item) => item.brand));
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setInfo({ ...info, [e.target.name]: e.target.value });
   };
 
@@ -20,9 +32,8 @@ const Filter = ({ data,info,setInfo }) => {
     <Box
       sx={
         isXsScreen
-          ? { backgroundColor: 'whiteSmoke',  }
-          : { backgroundColor: 'whiteSmoke'
-         }
+          ? { backgroundColor: 'whiteSmoke' }
+          : { backgroundColor: 'whiteSmoke' }
       }
     >
       <TextField
